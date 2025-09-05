@@ -138,7 +138,7 @@ async def send_telegram_message(time_, country, number, sender, message):
     )
 
     keyboard = [
-    [   InlineKeyboardButton("👑 OWNER", url="https://t.me/Op"),
+    [   InlineKeyboardButton("👑 OWNER", url="https://t.me/OpxAli"),
         InlineKeyboardButton("📢 Channel", url=f"{CHANNEL_LINK}")
     ],
     [
@@ -327,3 +327,4 @@ if __name__ == '__main__':
     start_flask_thread()
 
     start_telegram_listener()
+
